@@ -7,7 +7,14 @@
 }
 body{
     font-family: "Merriweather", serif;
+    background-color: azure;
 }
+
+
+
+
+/* Banner section */
+
 .hero-bg{
     background-image: url("/images/Banner-Image.png");
     background-repeat: no-repeat;
@@ -17,9 +24,9 @@ body{
     height: 600px;
     margin: 0 auto;
     margin-top: 20px;
-    border-radius: 16px;
+    border-radius: 15px;
     background-color: rgba(7, 2, 17, 0.508);
-    background-blend-mode: overlay;
+    
 }
 .hero-content{
     display: flex;
@@ -38,11 +45,19 @@ body{
     font-size: 72px;
     font-weight: 900;
 }
+
+
+
+
+
+/* discount-section */
+
 .discount-section{
     width: 800px;
     height: 800px;
     margin: 0 auto;
     margin-top: 80px;
+    margin-bottom: 80px;
     font-family: Inter;
     text-align: center;
 }
@@ -66,4 +81,65 @@ body{
     line-height: 58px;
     letter-spacing: 0%;
     margin-bottom: 50px;
+}
+
+
+
+
+/* party section */
+
+.party-section{
+    width: 1320px;
+    height: 600px;
+    border-radius: 15px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    background-image: url("/images/party.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(7, 2, 17, 0.264);
+    background-blend-mode: overlay;
+    margin-bottom: 80px;
+    display: flex;
+}
+.party-section h1{  
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+}
+.party-section h3{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.party-section p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.party-left-side{
+    width: 60%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin-left: 100px;
+}
+.party-right-side{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.party-right-side img{
+    width: 55%;
+    height: 65%;
+    margin-left: 60px;
+    opacity: .9;
 }
