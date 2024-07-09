@@ -1,145 +1,192 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: "Merriweather", serif;
-    background-color: azure;
+body {
+  font-family: "Merriweather", serif;
 }
-
-
-
 
 /* Banner section */
 
-.hero-bg{
-    background-image: url("/images/Banner-Image.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    max-width: 1320px;
-    height: 600px;
-    margin: 0 auto;
-    margin-top: 20px;
-    border-radius: 15px;
-    background-color: rgba(7, 2, 17, 0.508);
-    
+.hero-bg {
+  background-image: url("images/Banner-Image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: rgba(7, 2, 17, 0.504);
+  background-blend-mode: overlay;
 }
-.hero-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    height: 100%;
-    text-align: center;
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100%;
+  text-align: center;
 }
-.hero-content p{
-    font-size: 32px;
-    font-weight: 400;
+.hero-content p {
+  font-size: 32px;
+  font-weight: 400;
 }
-.hero-content h1{
-    font-size: 72px;
-    font-weight: 900;
+.hero-content h1 {
+  font-size: 72px;
+  font-weight: 900;
 }
-
-
-
-
 
 /* discount-section */
 
-.discount-section{
-    width: 800px;
-    height: 800px;
-    margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    font-family: Inter;
-    text-align: center;
+.discount-section {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-family: Inter;
+  text-align: center;
 }
-.discount-section h1{
-    color: rgb(255, 0, 0);
-    font-size: 88px;
-    font-weight: 700;
-    line-height: 107px;
-    margin-bottom: 20px;
+.discount-section h1 {
+  color: rgb(255, 0, 0);
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+  margin-bottom: 20px;
 }
-.discount-section h2{
-    color: rgb(255, 0, 0);  
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 29px;   
+.discount-section h2 {
+  color: rgb(255, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
 }
-.discount-section h3{
-    color: rgb(7, 2, 17);
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 58px;
-    letter-spacing: 0%;
-    margin-bottom: 50px;
+.discount-section h3 {
+  color: rgb(7, 2, 17);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  margin-bottom: 50px;
 }
-
-
-
 
 /* party section */
 
-.party-section{
-    width: 1320px;
-    height: 600px;
-    border-radius: 15px;
-    margin: 0 auto;
-    color: rgb(255, 255, 255);
-    background-image: url("/images/party.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: rgba(7, 2, 17, 0.264);
-    background-blend-mode: overlay;
-    margin-bottom: 80px;
-    display: flex;
+.party-section {
+  width: 1320px;
+  height: 600px;
+  border-radius: 15px;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  background-image: url("images/party.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(7, 2, 17, 0.27);
+  background-blend-mode: overlay;
+  margin-bottom: 80px;
+  display: flex;
 }
-.party-section h1{  
-    font-family: Merriweather;
-    font-size: 64px;
-    font-weight: 900;
-    line-height: 88px;
-    letter-spacing: 11%;
+.party-section h1 {
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
 }
-.party-section h3{
+.party-section h3 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.party-section p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.party-left-side {
+  width: 60%;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  margin-left: 100px;
+}
+.party-right-side {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.party-right-side img {
+  width: 55%;
+  height: 65%;
+  margin-left: 60px;
+  opacity: 0.9;
+}
+
+/* announcement section */
+
+.announcement {
+  width: 1320px;
+  height: 482px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+.announcement-content {
+  width: 549px;
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.announcement-content h3{
     font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    text-transform: capitalize;
 }
-.party-section p{
+.announcement-content h3 span{
+    color: rgb(255, 0, 0);
+}
+.announcement-content button{
+    position: relative;
+    width: 167px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
+    margin-top: 50px;
     text-transform: uppercase;
-}
-.party-left-side{
-    width: 60%;
-    justify-content: center;
-    flex-direction: column;
-    display: flex;
-    margin-left: 100px;
-}
-.party-right-side{
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.party-right-side img{
-    width: 55%;
-    height: 65%;
-    margin-left: 60px;
-    opacity: .9;
 }
