@@ -312,12 +312,11 @@ body {
   height: 662.07px;
   position: relative;
 }
-.holiday-image1 img{
+.holiday-image1 img {
   width: 674.82px;
   height: 577.96px;
   position: absolute;
   z-index: 1;
-
 }
 .holiday-image2 {
   width: 429px;
@@ -331,51 +330,153 @@ body {
   right: 320px;
   top: 22px;
 }
-.holiday-image4 img{
+.holiday-image4 img {
   width: 1320px;
   height: 200px;
   bottom: 30px;
   position: absolute;
 }
 
+/* --------------- Our gifts --------------- */
 
-/* Our gifts  */
-
-#our-gifts{
+#our-gifts {
   width: 1320px;
   height: 1160px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
-.gifts-title{
-margin-bottom: 50px;
+.gifts-title {
+  margin-bottom: 50px;
 }
-.gifts-title h5{
+.gifts-title h5 {
   color: rgb(255, 0, 0);
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
 }
-.gifts-title h1{
+.gifts-title h1 {
   color: rgb(7, 2, 17);
   font-family: Merriweather;
   font-size: 48px;
   font-weight: 900;
 }
-.gifts-title p{
+.gifts-title p {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
   width: 896px;
 }
-.gifts-card{
+.gifts-card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
-.gifts-card img{
+.gifts-card img {
   width: 424px;
-  height: 450px; 
+  height: 450px;
   border: 3px dashed lightgray;
+}
+
+/* --------------- subscribe-newsletter --------------- */
+
+#subscribe-newsletter {
+  width: 1320px;
+  height: 616px;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-news{
+  width: 896px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.subscribe-news img{
+  width: 150px;
+  height: 150px;
+  border: 1px dashed gray;
+}
+.subscribe-news h1{
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.subscribe-news p{
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+.subscribe-input input{
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  background-color: white;
+  border-radius: 100px 0 0 100px;
+}
+.subscribe-input button{
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  margin-left: -5px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 0 100px 100px 0;
+  color: white;
+}
+
+
+
+/* --------------- footer section --------------- */
+
+footer{
+  height: 400px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.footer-content{
+  width: 1320px;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-left{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left p{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.social-icon{
+  margin: 0 auto;
+}
+.footer-bottom p{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
 }
