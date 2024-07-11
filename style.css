@@ -9,7 +9,7 @@ body {
   font-family: "Merriweather", serif;
 }
 
-/* Banner section */
+/* --------------- Banner section --------------- */
 
 .hero-bg {
   background-image: url("images/Banner-Image.png");
@@ -75,7 +75,7 @@ body {
   margin-bottom: 50px;
 }
 
-/* party section */
+/*--------------- party section ---------------*/
 
 .party-section {
   width: 1320px;
@@ -133,7 +133,7 @@ body {
   opacity: 0.9;
 }
 
-/* announcement section */
+/* --------------- announcement section --------------- */
 
 .announcement {
   width: 1320px;
@@ -159,111 +159,184 @@ body {
   justify-content: center;
   align-items: center;
 }
-.announcement-content h3{
-    font-family: Inter;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 56px;
-    text-align: center;
-    text-transform: capitalize;
+.announcement-content h3 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+  text-transform: capitalize;
 }
-.announcement-content h3 span{
-    color: rgb(255, 0, 0);
+.announcement-content h3 span {
+  color: rgb(255, 0, 0);
 }
-.announcement-content button{
-    position: relative;
-    width: 167px;
-    height: 56px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 30px;
-    border: none;
-    border-radius: 8px;
-    background: rgb(255, 0, 0);
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    margin-top: 50px;
-    text-transform: uppercase;
+.announcement-content button {
+  position: relative;
+  width: 167px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 30px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 50px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* --------------- comming-soon --------------- */
+
+.comming-soon {
+  width: 1320px;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comming-soon-left {
+  width: 33%;
+}
+.comming-soon-left h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+.comming-soon-left h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  text-transform: capitalize;
+  margin: 10px 0 20px 0;
+}
+.comming-soon-left p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 393px;
+}
+.comming-soon-center {
+  width: 34%;
+  display: flex;
+  justify-content: right;
+}
+.comming-soon-center img {
+  width: 364.84px;
+  height: 364.84px;
+  border: 10px solid red;
+  border-radius: 100%;
+  padding: 20px;
+}
+.comming-soon-right {
+  width: 33%;
+  padding-left: 100px;
+}
+.comming-soon-right h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.comming-soon-right h4 {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+.comming-soon-right img {
+  width: 140px;
+  height: 132.79px;
+}
+
+/* --------------- holidays sale section --------------- */
+
+#holidays-sale {
+  width: 1320px;
+  height: 986.07px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.holidays-title {
+  width: 1068px;
+  height: 260px;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.holidays-title h5 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.holidays-title h1 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.holidays-title h1 span {
+  color: rgb(255, 0, 0);
+}
+.holidays-title p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+.holidays-images {
+  width: 1320px;
+  height: 662.07px;
+  position: relative;
+}
+.holiday-image1 img{
+  width: 674.82px;
+  height: 577.96px;
+  position: absolute;
+  z-index: 1;
+
+}
+.holiday-image2 {
+  width: 429px;
+  height: 433px;
+  position: absolute;
+  right: 0;
+}
+.holiday-image3 {
+  position: absolute;
+  z-index: 2;
+  right: 320px;
+  top: 22px;
+}
+.holiday-image4 img{
+  width: 1320px;
+  height: 200px;
+  bottom: 30px;
+  position: absolute;
 }
 
 
-/* comming-soon */
 
-.comming-soon{
-    width: 1320px;
-    height: 400px;
-    margin: 0 auto;
-    margin-bottom: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.comming-soon-left{
-    width: 33%;
-}
-.comming-soon-left h1{
-    color: rgb(255, 0, 0);
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 29px;
-}
-.comming-soon-left h2{
-    color: rgb(7, 2, 17);
-    font-family: Merriweather;
-    font-size: 48px;
-    font-weight: 900;
-    line-height: 60px;
-    text-transform: capitalize;
-    margin: 10px 0 20px 0;
-}
-.comming-soon-left p{
-    color: rgba(7, 2, 17, 0.6);
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    width: 393px;
-}
-.comming-soon-center{
-    width: 34%;
-    display: flex;
-    justify-content: right;
-}
-.comming-soon-center img{
-    width: 364.84px;
-    height: 364.84px;
-    border: 10px solid red;
-    border-radius: 100%;
-    padding: 20px;
-}
-.comming-soon-right{
-    width: 33%;
-    padding-left: 100px;
-}
-.comming-soon-right h1{
-    color: rgb(255, 0, 0);
-    font-family: Inter;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 58px;
-    margin-top: 50px;
-    margin-bottom: 10px;
-}
-.comming-soon-right h4{
-    color: rgba(7, 2, 17, 0.6);
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    margin-bottom: 20px;
-}
-.comming-soon-right img{
-    width: 140px;
-    height: 132.79px;
-}
